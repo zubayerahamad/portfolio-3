@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+}
+header{
+    background-image: url(images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-contaner{
+    display: flex;
+    gap: 60%;
+    padding-top: 230px;
+    padding-right: 130px;
+    padding-left: 130px;
+    padding-bottom: 200px;
+}
+.header-titel{
+    color: #FFF;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.header-description{
+    color: #FFF;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+}
+.header-button{
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFF;
+    margin-top: 24px;
+    border: none;
+    color: #005FAC;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+.button-display{
+    display: flex;
+    justify-content: right;
+}
+/* section-1 */
+.section-1{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-right: 130px;
+    margin-left: 130px;
+    margin-top: 130px;
+    
+}
+.section-1-contaner{
+    padding-top: 370px;
+
+}
+.section-1 ul li{
+    list-style-type: none;
+    list-style-image: url(images/symble/check\ 1.png);
+    color:  #444343;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+
+    
+}
+.section-1-title{
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 24px;
+
+}
+.section-1-description{
+    color: #444343;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 24px;
+
+}
+.section-2{
+    margin: 130px 130px;
+    text-align: center;
+
+}
+.section-2-contaner{
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+}
+.section-2-title{
+    color:  #151414;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.section-2-contaner-title{
+    color: #151414;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 24px 0 24px 0;
+}
+.section-2-contaner p{
+    color: #737272;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.section-3{
+    background-image: url(images/watch\ tradient\ blue.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 130px;
+    height: 300px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: left;
+}
+.section-3-title{
+    margin-top: 100px;
+    margin-left: 50px; 
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.section-3-button{
+    margin-top: 24px;
+    margin-left: 50px; 
+    width: 160px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    color: #005FAC;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    border: none;
+
+}
+/* footer */
+footer{
+    background: #151414;
+    width: 100%;
+    height: 577px;
+    padding: 130px ;
+    padding-right: 130px;
+}
+.footer-contaner{
+    display: flex;
+    color: #F8F8F8;
+    gap: 100px;
+}
+.footer-contaner-title{
+
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.footer-contaner-description{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.footer-contaner img{
+    margin-right: 15px;
+}
+.footer-contaner-right{
+    margin-right: 130px;
+}
+.footer-contaner-right-title{
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+}
+.footer-contaner-right-email{
+    width: 325px;
+    height: 64px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    padding-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 130px;
+}
+.footer-contaner-right-button{
+    width: 170.106px;
+    height: 64px;
+    border-radius: 8px;
+    background: #005FAC;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+
+}
